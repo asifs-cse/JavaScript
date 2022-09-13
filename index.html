@@ -37,8 +37,16 @@
         }
         
         //covert number to string
-        let x = 123;
-        document.getElementById("display").innerHTML=x.toString();
+        //let x = 123;
+        //document.getElementById("display").innerHTML=x.toString();
+        
+        //Exponential() Method
+        let x = 9.656;
+
+        document.getElementById("display").innerHTML=x.toExponential()+"<br>"+
+            x.toExponential(2)+"<br>"+
+            x.toExponential(4)+"<br>"+
+            x.toExponential(6);
         
     </script>
 </body>
