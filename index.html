@@ -58,8 +58,22 @@
             x.toFixed(6);
         */
 
-        const cars_list = ["Saab","Volvo","BMW"];
+        //using array
+        /*const cars_list = ["Saab","Volvo","BMW"];
         document.getElementById("display").innerHTML = cars_list[2];
+        */
+
+        //for loop using array
+        const frouts =["Banana","Orange","Apple","Mango"];
+        let flen = frouts.length;
+        for(let i=0; i<flen; i++){
+            text = frouts[i];
+            document.getElementById("display").innerHTML = text;
+        }
+        //array to string
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("display").innerHTML = fruits.toString();
+
     </script>
 </body>
 </html>
